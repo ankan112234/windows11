@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #f3f3f3;
+    z-index: 1;
+}
+.right{
+    position: absolute;
+    right: 0;
+}
+.startmenu{
+    position: absolute;
+    /* bottom: 42px; */
+    bottom: -670px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.startmenu img{
+    border-radius: 20px;
+}
+.icons img{
+    height: 60px;
+    width: 60px;
+  
+}
+
+.icons{
+    height: 400px;
+    width: 70pxpx;
+    position: absolute;
+    top: 20px;
+    margin: 7px 28px;
+
+}
+.chrome{
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}
+.edge{
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}
+.chrome img{
+height: 60px;
+/* padding: 30px; */
+}
